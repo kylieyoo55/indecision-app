@@ -1,0 +1,30 @@
+//widget
+.widget{
+    background: $light-navy;
+margin-bottom: $xl-size;
+border-radius: $border-size ;
+}
+
+.widget__message{
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid darken($light-navy,10%) ;
+}
+
+//widget header
+
+.widget-header{
+    background-color: $blue;
+    color: $off-white;
+    padding: $m-size;
+    display: flex;
+    justify-content:space-between ;
+    border-radius: $border-size $border-size 0 0;
+    
+}
+
+.widget-header__title{
+    margin: 0;
+}

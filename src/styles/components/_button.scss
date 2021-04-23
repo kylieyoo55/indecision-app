@@ -1,0 +1,37 @@
+//big button
+.big-button{
+    background: $light-blue;
+    border-radius: $border-size;
+    border-bottom: .6rem solid darken($light-blue, 10%);
+    color:$grey-black;
+  
+font-weight: bold;
+font-size: $l-size;
+
+width: 100%;
+margin-bottom: $xl-size;
+padding: 2.4rem;
+}
+
+.big-button:disabled{
+    opacity: 0.3;
+}
+
+//small button
+.button{
+    background: $light-blue;
+    border-radius: $border-size;
+    border-bottom: .3rem solid darken($light-blue, 10%);
+    color:$grey-black;
+
+    font-weight: bold;
+    padding: $s-size;
+}
+
+//bem
+.button--link{
+  background: none;  
+  border:none;
+  color: $light-blue;
+  padding: 0;
+}
